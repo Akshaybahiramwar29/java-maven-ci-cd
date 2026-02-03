@@ -1,0 +1,15 @@
+# Maven build output
+target/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_store
