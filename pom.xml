@@ -54,6 +54,20 @@
             </plugin>
 
         </plugins>
-    </build>
+    </build> 
+
+    <distributionManagement>
+
+    <repository>
+        <id>nexus</id>
+        <url>http://10.74.136.125:8082/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://10.74.136.125:8082/repository/maven-snapshots/</url>
+    </snapshotRepository>
+
+    </distributionManagement>     
 
 </project>
