@@ -1,5 +1,5 @@
 # Dockerfile
-FROM docker.io/eclipse-temurin:17-slim
+FROM docker.io/eclipse-temurin:17-jdk
 
 # Set working directory
 WORKDIR /app
