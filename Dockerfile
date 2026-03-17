@@ -7,5 +7,8 @@ WORKDIR /app
 # Copy everything from project
 COPY target/*.jar app.jar
 
+# Expose port
+EXPOSE 8081
+
 # Run the app
 ENTRYPOINT ["java","-jar","app.jar"]
