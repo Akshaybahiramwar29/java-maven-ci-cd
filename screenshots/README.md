@@ -16,19 +16,19 @@
 ![Prometheus](prometheus-target.png)
 
 ## 📈 Grafana Memory & Pod Status
-![Grafana1](Grafana-memory-podstatus.png)
+![Grafana1](Grafana-memory-pod-status.png)
 
 ## 📈 Grafana CPU & Service
-![Grafana2](Grafana-up-cpuusage.png)
+![Grafana2](Grafana-up-cpu-usage.png)
 
 ## 🔍 SonarQube Quality Gate
 ![SonarQube](sonarqube-quality-gate.png)
 
 ## 📊 SonarQube Metrics
-![Sonar Metrics](sonarqube-metrics.png)
+![Sonar Metrics](sonarqube-project-overview.png)
 
 ## 📦 Nexus Artifact Stored
 ![Nexus](nexus-artifact.png)
 
 ## 🗂️ Nexus Repositories
-![Nexus Repo](nexus-repositories.png)
+![Nexus Repo](nexus-repo-status.png)
