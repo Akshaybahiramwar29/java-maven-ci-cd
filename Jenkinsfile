@@ -82,11 +82,11 @@ pipeline {
              agent any
            steps {
         sh """
-        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@54.173.58.114 "kubectl apply -f /home/ubuntu/deployment.yaml"
+        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@I54.xxx.xxx.xxx "kubectl apply -f /home/ubuntu/deployment.yaml"
         
-        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@54.173.58.114 "kubectl apply -f /home/ubuntu/service.yaml"
+        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@54.xxx.xxx.xxx "kubectl apply -f /home/ubuntu/service.yaml"
         
-        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@54.173.58.114 "kubectl get pods"
+        ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/ubuntu.pem ubuntu@54.xxx.xxx.xxx "kubectl get pods"
         """
            }
         }
