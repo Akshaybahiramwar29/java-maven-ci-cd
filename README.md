@@ -38,6 +38,7 @@ The pipeline automates build, code quality analysis, artifact storage, container
 
 ## 🧩 Project Structure
 
+```
 project/
 │
 ├── src
@@ -48,7 +49,8 @@ project/
 ├── pom.xml
 ├── Architecture
 ├── README.md
-    
+
+``` 
 
 
 ## 📸 Project Screenshots
