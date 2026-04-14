@@ -33,7 +33,7 @@ The pipeline automates build, code quality analysis, artifact storage, container
     
 ## Architecture Diagram
 
-[Architecture](Architecture/architecture-diagram.png)
+![Architecture](Architecture/architecture-diagram.png)
 
 
 ## 🧩 Project Structure
@@ -47,7 +47,7 @@ The pipeline automates build, code quality analysis, artifact storage, container
 ├── screenshots/
 │   └── README.md
 ├── Architecture
-    └──architecture-diagram.png
+│   └──architecture-diagram.png
 
 
 ## 📸 Project Screenshots
