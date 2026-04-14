@@ -38,16 +38,17 @@ The pipeline automates build, code quality analysis, artifact storage, container
 
 ## 🧩 Project Structure
 
-
-├── src/
-├── k8s/
+project/
+│
+├── src
+├── screenshots
 ├── Dockerfile
 ├── Jenkinsfile
+├── k8s
 ├── pom.xml
-├── screenshots/
-│   └── README.md
 ├── Architecture
-│   └──architecture-diagram.png
+├── README.md
+    
 
 
 ## 📸 Project Screenshots
