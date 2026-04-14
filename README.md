@@ -1,10 +1,14 @@
 ## 🚀 Java Maven CI/CD Pipeline with Kubernetes Monitoring
-
+---
 ## 📌 Project Overview
 
 This project demonstrates a complete **CI/CD pipeline** for a Java Spring Boot application using DevOps tools.
 The pipeline automates build, code quality analysis, artifact storage, containerization, deployment, and monitoring.
+---
+## Architecture Diagram
 
+![Architecture](Architecture/architecture-diagram.png)
+---
 
 ## 🛠️ Tools & Technologies Used
 
@@ -16,7 +20,7 @@ The pipeline automates build, code quality analysis, artifact storage, container
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes (Minikube)
 - **Monitoring**: Prometheus & Grafana
-
+---
 
 ## ⚙️ CI/CD Pipeline Flow
 
@@ -31,10 +35,7 @@ The pipeline automates build, code quality analysis, artifact storage, container
 9. Prometheus collects metrics
 10. Grafana visualizes monitoring data
     
-## Architecture Diagram
-
-![Architecture](Architecture/architecture-diagram.png)
-
+---
 
 ## 🧩 Project Structure
 
@@ -42,18 +43,17 @@ The pipeline automates build, code quality analysis, artifact storage, container
 project/
 │
 ├── src
-├── screenshots
+├── screenshots/
+    └── README.md
 ├── Dockerfile
 ├── Jenkinsfile
 ├── k8s
+    ├── deployment.yaml
+    └── service.yaml  
 ├── pom.xml
-├── Architecture
-├── README.md
-├── Architecture
-
 
 ``` 
-
+---
 
 ## 📸 Project Screenshots
 
@@ -69,7 +69,7 @@ Includes:
 * Grafana Dashboards
 * SonarQube Quality Gate
 * Nexus Artifacts
-
+---
 
 ## 📊 Key Features
 
