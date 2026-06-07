@@ -111,5 +111,5 @@ This project demonstrates real-world DevOps practices including:
 
 ## 👨‍💻 Author
 
-Akshay
+Akshay Bahiramwar -
 DevOps & Cloud Engineer
