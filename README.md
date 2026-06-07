@@ -112,4 +112,4 @@ This project demonstrates real-world DevOps practices including:
 ## 👨‍💻 Author
 
 Akshay
-DevOps Engineer (Fresher)
+DevOps & Cloud Engineer
